@@ -3869,6 +3869,12 @@
 		(uuid "211fc1f9-9ddf-4f27-81c0-684eabbe0d7c")
 	)
 	(junction
+		(at 68.58 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21b5b5e3-1ea9-4460-bacc-643a2fc0165b")
+	)
+	(junction
 		(at 271.78 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3897,6 +3903,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33903004-4551-4ec4-a270-73b7a585b30b")
+	)
+	(junction
+		(at 68.58 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35902013-a3f2-4ea2-bae7-2a7ee31fb3ef")
 	)
 	(junction
 		(at 81.28 88.9)
@@ -4127,6 +4139,12 @@
 		(uuid "e1bded32-0fb1-4ced-9f1d-06fe069dd594")
 	)
 	(junction
+		(at 21.59 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3e35442-10ee-45f8-af1b-ddbab25d35a1")
+	)
+	(junction
 		(at 83.82 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4217,6 +4235,16 @@
 			(type default)
 		)
 		(uuid "00263151-750f-4a5a-8989-fd8cedef16d6")
+	)
+	(wire
+		(pts
+			(xy 25.4 100.33) (xy 21.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013863c6-3a5b-440c-a35f-81713aeebad6")
 	)
 	(wire
 		(pts
@@ -4407,6 +4435,16 @@
 			(type default)
 		)
 		(uuid "14a7a9b3-c8d8-4020-87e7-7ea977d4f051")
+	)
+	(wire
+		(pts
+			(xy 68.58 161.29) (xy 72.39 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15229111-e9de-4815-87c5-9073fa6b4d31")
 	)
 	(wire
 		(pts
@@ -5230,6 +5268,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 100.33) (xy 21.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e66abe7-9e49-47c6-af21-a4f9eb4ea8c1")
+	)
+	(wire
+		(pts
 			(xy 86.36 66.04) (xy 81.28 66.04)
 		)
 		(stroke
@@ -5540,6 +5588,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 158.75) (xy 68.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91923f53-a4c5-42d6-8cb6-8b08807bbb5c")
+	)
+	(wire
+		(pts
 			(xy 160.02 76.2) (xy 165.1 76.2)
 		)
 		(stroke
@@ -5677,6 +5735,16 @@
 			(type default)
 		)
 		(uuid "a2405424-1d03-418c-b5f1-3905ae894ed9")
+	)
+	(wire
+		(pts
+			(xy 68.58 115.57) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27ddeef-ecc3-4ef8-a5d5-6272d3ae11cf")
 	)
 	(wire
 		(pts
@@ -6260,7 +6328,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 118.11) (xy 72.39 118.11)
+			(xy 62.23 118.11) (xy 68.58 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6277,6 +6345,16 @@
 			(type default)
 		)
 		(uuid "dcdf7cfd-3ae3-4938-9287-bad00eb58554")
+	)
+	(wire
+		(pts
+			(xy 68.58 118.11) (xy 72.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1de905-f60e-49df-a7a7-8e3d7958eb1b")
 	)
 	(wire
 		(pts
@@ -6380,7 +6458,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 161.29) (xy 72.39 161.29)
+			(xy 62.23 161.29) (xy 68.58 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7941,6 +8019,71 @@
 			(project "sata-backplane"
 				(path "/09586197-2cbc-428a-b2c0-9ce846ccfbe7"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 68.58 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "378dfab8-1cf9-40a7-b0c5-251b5fc0b3cc")
+		(property "Reference" "#PWR039"
+			(at 68.58 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 64.008 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab2cabd8-0815-4739-a0dc-fe1a66eeb30b")
+		)
+		(instances
+			(project "sata-backplane"
+				(path "/09586197-2cbc-428a-b2c0-9ce846ccfbe7"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11375,6 +11518,71 @@
 			(project "sata-backplane"
 				(path "/09586197-2cbc-428a-b2c0-9ce846ccfbe7"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 68.58 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d63a86c6-ef3b-40fc-a6cf-2c05087b228c")
+		(property "Reference" "#PWR037"
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 64.008 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 68.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88acb993-ca73-4e2b-987f-c442a77b48f9")
+		)
+		(instances
+			(project "sata-backplane"
+				(path "/09586197-2cbc-428a-b2c0-9ce846ccfbe7"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
