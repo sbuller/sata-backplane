@@ -1,2 +1,6 @@
 *.bak
 *-backups
+~*
+fp-info-cache
+_autosave*
+\#auto_saved_files\#

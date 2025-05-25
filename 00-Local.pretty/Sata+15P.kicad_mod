@@ -55,6 +55,46 @@
 	)
 	(attr smd)
 	(fp_line
+		(start 2.5 0.7)
+		(end 2.5 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7220c44d-346b-4a41-af74-ec53585c3441")
+	)
+	(fp_line
+		(start 2.5 2.7)
+		(end -18.25 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0683808-d668-41ce-985d-c1c967a380c1")
+	)
+	(fp_line
+		(start 4 2.7)
+		(end 4 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bac50103-01f1-49ef-b7d4-25029217f319")
+	)
+	(fp_line
+		(start 15.25 2.7)
+		(end 4 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b2ec6e4-2df8-4aee-b7f9-6ddf20938d71")
+	)
+	(fp_line
 		(start -23.66 0.2)
 		(end 19.84 0.2)
 		(stroke
@@ -239,18 +279,20 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at -22.66 1.7)
-		(size 1.6 1.6)
+		(size 2.6 2.6)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "f7eebafa-fe30-41db-a456-c41520c46755")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 18.84 1.7)
-		(size 1.6 1.6)
+		(size 2.6 2.6)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "f9867ac6-f7b5-43e5-b69e-2f2face0c6cb")
 	)
 	(pad "1" smd roundrect
@@ -408,4 +450,15 @@
 		(uuid "5ffa1433-c3a4-4464-bcbe-7e49a052f2c6")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/c-1735284-1-d-3d.stp"
+		(offset
+			(xyz -2 -2 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

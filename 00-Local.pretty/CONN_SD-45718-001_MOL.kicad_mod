@@ -437,7 +437,7 @@
 		(uuid "3df138ac-1f89-4973-bc9f-305e730be431")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/457180002.stp"
+	(model "${KIPRJMOD}/3d/457180002.stp"
 		(offset
 			(xyz -7.27 -1.3 12.8)
 		)

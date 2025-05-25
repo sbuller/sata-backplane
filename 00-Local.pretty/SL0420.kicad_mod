@@ -105,4 +105,15 @@
 		(uuid "129556d1-14a7-4d79-9bb8-428cc32cbc5c")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_APV_APH0412.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1.5)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

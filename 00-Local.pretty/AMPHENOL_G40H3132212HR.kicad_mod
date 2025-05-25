@@ -635,7 +635,7 @@
 		(uuid "91f287fa-faf4-44dd-9519-6466d7bdd775")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/G40H3132212HR/G40H3132212HR.step"
+	(model "${KIPRJMOD}/3d/G40H3132212HR.step"
 		(offset
 			(xyz 0 -0.55 0)
 		)
